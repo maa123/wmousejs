@@ -1,0 +1,24 @@
+{
+  "name": "wmousejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "robotjs": "^0.5.1",
+    "websocket": "^1.0.29"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:maa123/wmousejs.git"
+  },
+  "author": "maa123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maa123/wmousejs/issues"
+  },
+  "homepage": "https://github.com/maa123/wmousejs#readme"
+}
