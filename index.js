@@ -4,6 +4,7 @@ const http = require('http');
 const WebSocketServer = require("websocket").server;
 const robot = require("robotjs");
 const os = require("os");
+const qrcode = require('qrcode-terminal');
 
 const port = 8765;
 
@@ -24,7 +25,8 @@ const httpserver = http.createServer((request, response) => {
 	response.end();
 });
 httpserver.listen(port, () => {
-	console.log("ws://" + myIP + ":" + port +"  を入力してください")
+	console.log("ws://" + myIP + ":" + port +"  を入力するか、アプリ内からQRコードを読み込んでください");
+	qrcode.generate("ws://" + myIP + ":" + port);
 });
 
 const wsServer = new WebSocketServer({
