@@ -18,3 +18,9 @@ git cloneするか [ZIPファイルをダウンロード](https://github.com/maa
 index.jsのあるフォルダでnpm installを実行後node indexを実行
 
 アプリを起動してQRコードを読み込む
+
+
+## その他
+
+[C#版](https://github.com/maa123/wsMouse-csharp)
+[Golang版](https://github.com/maa123/wsMouse-go)
